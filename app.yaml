@@ -1,0 +1,7 @@
+runtime: python39
+
+entrypoint: flask run --host=0.0.0.0 --port=8080
+
+env_variables:
+  PORT: 8000
+  OPENAI_API_KEY: sk-proj-h8h4yVclQb4hNZCY5jN5T3BlbkFJYi3tykBanuiGwUcalM2O
